@@ -1,14 +1,14 @@
 export class Produit {
     forme: string;
-    catégorie: string;
+    categorie: string;
     nom: string;
     description: string;
     prix: number;
     image: string;
 
-    constructor(forme: string, catégorie: string, nom: string, description: string, prix: number, image: string) {
+    constructor(forme: string, categorie: string, nom: string, description: string, prix: number, image: string) {
         this.forme = forme;
-        this.catégorie = catégorie;
+        this.categorie = categorie;
         this.nom = nom;
         this.description = description;
         this.prix = prix;
